@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Elhajj.com/static/css/main.208b97ba.css",
-    "main.js": "/Elhajj.com/static/js/main.9ed7e821.js",
+    "main.css": "/Elhajj.com/static/css/main.80389a48.css",
+    "main.js": "/Elhajj.com/static/js/main.c3e8396e.js",
+    "static/media/AboutPicture.jpg": "/Elhajj.com/static/media/AboutPicture.6011a8ecde51d8d1fa9b.jpg",
     "static/media/MyPicture.jpg": "/Elhajj.com/static/media/MyPicture.2bf84cb14831d52b0b57.jpg",
     "index.html": "/Elhajj.com/index.html",
-    "main.208b97ba.css.map": "/Elhajj.com/static/css/main.208b97ba.css.map",
-    "main.9ed7e821.js.map": "/Elhajj.com/static/js/main.9ed7e821.js.map"
+    "main.80389a48.css.map": "/Elhajj.com/static/css/main.80389a48.css.map",
+    "main.c3e8396e.js.map": "/Elhajj.com/static/js/main.c3e8396e.js.map"
   },
   "entrypoints": [
-    "static/css/main.208b97ba.css",
-    "static/js/main.9ed7e821.js"
+    "static/css/main.80389a48.css",
+    "static/js/main.c3e8396e.js"
   ]
 }
