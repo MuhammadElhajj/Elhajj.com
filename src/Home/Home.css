@@ -1,0 +1,200 @@
+.Home {
+  margin: 0 5%;
+  padding-bottom: 140px;
+  padding-top: 40px;
+}
+
+.Home__Developer {
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 23px 0 50px;
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.Home__Page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Developer__Information__One {
+  background-color: var(--backgrond-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  outline: 2px solid var(--primary-color);
+  border-radius: 80px 0;
+  padding: 20px 10px;
+}
+.Developer__Information__Tow {
+  display: flex;
+  gap: 100px;
+}
+.Developer__Information__One__Picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  outline: 3px solid var(--primary-color);
+}
+
+.Developer__Information__One h3 {
+  color: var(--white-color);
+  margin: 3px 0 3px 0;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.Developer__Information__One h5 {
+  color: var(--white-color);
+  font-weight: normal;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.Little__skills__Info {
+  padding: 20px 0 10px 0;
+}
+
+.Little__skills__Info p {
+  font-size: 14px;
+  margin: 5px 2px;
+  color: var(--white-color);
+}
+
+.Little__skills__Info__Icon {
+  color: var(--primary-color);
+}
+.Little__skills__Info__Content {
+  margin-left: 5px;
+}
+
+.Little__skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+}
+
+.Little__skills span {
+  background-color: var(--primary-color);
+  color: var(--backgrond-color);
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 30px;
+}
+
+.Download__CV__Button {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.Developer__Information__Tow__h1__Open__Tag,
+.Developer__Information__Tow__h1__Close__Tag,
+.Developer__Information__Tow__p__Open__Tag,
+.Developer__Information__Tow__p__Close__Tag {
+  color: var(--secondary-color);
+  font-size: 10px;
+}
+
+.Developer__Information__Tow__h1 {
+  font-weight: normal;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.Developer__Information__Tow__h1__Name {
+  color: var(--primary-color);
+}
+.Developer__Information__Tow__p {
+  color: var(--white-color);
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+.Developer__Information__Tow__Contact {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.Developer__Information__Tow__Contact:hover {
+  color: var(--secondary-color);
+}
+
+.Developer__Information__Tow__Contact__Icon {
+  margin-left: 5px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ffffff33;
+}
+
+.Developer__Information__Tow__Number__Info {
+  background-color: var(--container-color);
+  padding: 0px 25px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Developer__Information__Tow__Number__Info__div {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.Developer__Information__Tow__Number__Info__One__Number {
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.Developer__Information__Tow__Number__Info__Tow__p {
+  font-size: 15px;
+  color: var(--white-color);
+  padding-left: 10px;
+}
+
+/* @media screen and (min-width: 0px) and (max-width: 989px) { */
+@media screen and (min-width: 0px) and (max-width: 1224px) {
+  .Home__Page {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    .Developer__Information__Tow {
+     
+        flex-direction: column;
+    }
+    .ControlPanel  {
+        display: none;
+    }
+    .Home {
+        padding: 0;
+        padding-top: 20px;
+    }
+    .Home__Developer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 639px) {
+
+    .Developer__Information__Tow {
+        gap: 30px;
+    }
+}
