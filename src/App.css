@@ -21,8 +21,10 @@
 
 
 
-@media screen and (min-width : 990px) and (max-width :2780px) {
-    
+@media screen and (min-width : 0) and (max-width :800px) {
+    .ControlPanel {
+        display: none;
+    }
  
 }
 
