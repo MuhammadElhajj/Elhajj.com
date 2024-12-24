@@ -74,9 +74,7 @@ line-height: 26px;
     .About__Part__One__Information {
         width: 100%;
     }
-    .About__Part__One__Information {
-        margin-bottom: 50px;
-    }
+  
     .About__Part__Tow__Picture {
         width: 40%;
     }
@@ -86,26 +84,11 @@ line-height: 26px;
 @media screen and (min-width : 0) and (max-width :639px) {
  
     .About {
-        padding: 25px 10px;
+        padding: 25px 10px ;
     }
     .About__Part__One__H2{ margin-bottom: 20px;}
     .About__Part__Tow {
         display: none;
-    }
-  
-}
-@media screen and (min-width : 0) and (max-width :400px) {
- 
-    .Header__Search {
-        margin-left: 5px;
-    }
-    .Header__Links__Link {
-        margin-left: 10px;
-        font-size: 13px;
-    }
-    .Header__Logo__name {
-        
-        font-size: 15px;
     }
   
 }

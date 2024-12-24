@@ -98,6 +98,7 @@ width: 30px;
 .Header__Bars__Icons {
     color: var(--white-color);
     display: none;
+    font-size: 20px;
 }
 
 
@@ -159,6 +160,17 @@ width: 30px;
     }.Header__Bars__Icons {
         display: block;
     }
+    .Header__Search__Icon {
+        font-size: 20px;
+    }
+    .Developer__Information__One {
+       
+        width: 100%;
+    }
+    .Little__skills__Info {
+
+        width: 100%;
+    }
     
   
 }
@@ -166,12 +178,19 @@ width: 30px;
 @media screen and (min-width : 0) and (max-width :430px) {
     
    .Header {
-    padding: 15px 2%;
+    padding: 5px 3%;
    }
    .Header__Search {
-    margin-left: 15px;
+    margin-left: 5px;
    }
    
-
+   .Header__Links__Link {
+    margin-left: 10px;
+    font-size: 15px;
+}
+.Header__Logo__name {
+    
+    font-size: 15px;
+}
 }
 

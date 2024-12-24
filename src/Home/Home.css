@@ -172,6 +172,7 @@
 @media screen and (min-width: 0px) and (max-width: 1224px) {
   .Home__Page {
     flex-direction: column;
+    padding-bottom: 10px;
   }
 }
 
@@ -196,5 +197,22 @@
 
     .Developer__Information__Tow {
         gap: 30px;
+    }
+  
+    }
+
+@media screen and (min-width: 0) and (max-width: 600px) {
+
+    
+    .Developer__Information__Tow__Number__Info {
+      flex-direction: row;
+      padding: 0;
+    }
+    .Developer__Information__Tow__Number__Info__Tow__p {
+      font-size: 12px;
+    }
+    .Developer__Information__Tow__Number__Info__One__Number {
+   
+      font-size: 20px;
     }
 }
