@@ -1,4 +1,4 @@
-.Home {
+/* .Home {
   margin: 0 5%;
   padding-bottom: 140px;
   padding-top: 40px;
@@ -168,7 +168,6 @@
   padding-left: 10px;
 }
 
-/* @media screen and (min-width: 0px) and (max-width: 989px) { */
 @media screen and (min-width: 0px) and (max-width: 1224px) {
   .Home__Page {
     flex-direction: column;
@@ -215,4 +214,5 @@
    
       font-size: 20px;
     }
-}
+} 
+*/

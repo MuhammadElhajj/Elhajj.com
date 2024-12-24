@@ -1,6 +1,5 @@
-.Contact {
-    background-color: var(--backgrond-color);
-    /* background-color: #000000; */
+/* .Contact {
+   
 
 
     padding: 50px calc(5% + 30px);
@@ -95,9 +94,9 @@ padding: 20px 0px 0;
     background-color: transparent;
     color: var(--white-color);
 }
-/* .Contact__Submit__Button__Name {
 
-} */
+
+
 .Contact__Submit__Button__Icon {
 margin-left: 7px;
 }
@@ -157,4 +156,4 @@ margin-left: 7px;
         margin-bottom: 20px;
     }
   
-}
+} */
