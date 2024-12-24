@@ -5,8 +5,9 @@ import { BsDiscord } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import HeaderLinks from "./HeaderLinks";
+import { FaBars } from "react-icons/fa";
 
-function Header() {
+function Header({openSide , openearch}) {
 
 
   return (
@@ -37,7 +38,7 @@ function Header() {
             type="search"
             placeholder="Search Here"
           />
-          <BsSearch className="Header__Search__Icon" />
+          <BsSearch className="Header__Search__Icon"  onClick={openearch}/>
         </div>
         <div className="Header__Social__Media">
           <a href="#G" className="Header__Social__Media__Link">
@@ -53,6 +54,7 @@ function Header() {
             <span className="Header__Social__Media__Link__Name">Github</span>
           </a>
         </div>
+      <FaBars  className="Header__Bars__Icons" onClick={openSide}/>
       </div>
       {/* <FaBars  className="Header__Bars__Icons"/> */}
     </header>

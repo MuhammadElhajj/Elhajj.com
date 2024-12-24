@@ -1,0 +1,25 @@
+.SearchPhone {
+width: 100vw;
+}
+
+
+.SearchPhone__input {
+width: 100%;
+padding: 10px;
+border: none;
+outline: none;
+}
+
+.SearchPhone__input:focus::placeholder {
+    opacity: 0;
+}
+
+.SearchPhone__Close {
+    font-size: 20px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: #fff;
+}
