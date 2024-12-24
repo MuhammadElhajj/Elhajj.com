@@ -1,0 +1,168 @@
+.Header {
+    /* width: 100%; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #999da233;
+    padding: 20px 5%;
+    background-color: var(--backgrond-color);
+    
+}
+.ActiveHeaderLink {
+    color: var(--primary-color);
+}
+.Header__Other {
+    display: flex;
+    align-items: center;
+}
+.Header__Links__Link {
+    margin-left: 30px;
+    text-decoration: none;
+    color: var(--white-color);
+    transition: color 0.3s;
+    font-size: 18px;
+
+}
+.Header__Links__Link:hover {
+
+    color: var(--primary-color);
+}
+
+.Header__Logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.Header__Logo__picture {
+width: 30px;
+}
+.Header__Logo__name {
+    color: var(--white-color);
+    margin-left: 5px;
+}
+.Header__Logo__Tag {
+    color: var(--primary-color);
+    font-family: serif;
+}
+.Header__Search {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    background-color: var(--white-color);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+.Header__Search__Icon {
+    font-size: 13px;
+   
+}
+
+.Header__Search__Input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  
+}
+
+
+.Header__Search__Input:focus::placeholder {
+   opacity: 0;
+}
+
+
+
+.Header__Social__Media {
+    display: flex;
+    align-items: center;
+}
+.Header__Social__Media__Link {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+.Header__Social__Media__Link__Icon {
+    margin-right: 4px;
+    color: var(--primary-color);
+}
+.Header__Social__Media__Link__Name {
+    color: var(--white-color);
+}
+
+
+
+@media screen and (min-width : 990px) and (max-width :2780px) {
+    
+ 
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+   
+}
+    
+   
+
+/* !......................................! */
+
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+   
+}
+
+
+
+@media screen and (min-width : 990px) and (max-width : 1279px) {
+  
+}
+
+/* @media screen and (min-width : 769px) and (max-width : 989px) { */
+
+@media screen and (min-width : 0px) and (max-width : 989px) {
+    .Header__Social__Media__Link__Name {
+        display: none;
+       }
+   
+}
+
+/* @media screen and (min-width : 640px) and (max-width : 768px) { */
+@media screen and (min-width : 0) and (max-width : 768px) {
+
+    .Header__Search__Input {
+        display: none;
+    }
+    .Header__Search {
+        background-color: transparent;
+        color: var(--white-color);
+    }
+   
+  
+}
+
+@media screen and (min-width : 0) and (max-width :639px) {
+ 
+    .Header__Social__Media  {
+        display: none;
+    }
+    .Header__Search  {
+        margin: 0;
+        margin-left: 40px;
+    }
+  
+}
+
+@media screen and (min-width : 0) and (max-width :430px) {
+    
+   .Header {
+    padding: 15px 2%;
+   }
+   .Header__Search {
+    margin-left: 15px;
+   }
+}
+
