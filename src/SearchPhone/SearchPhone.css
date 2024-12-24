@@ -12,6 +12,7 @@ outline: none;
 
 .SearchPhone__input:focus::placeholder {
     opacity: 0;
+    font-size: 0;
 }
 
 .SearchPhone__Close {
