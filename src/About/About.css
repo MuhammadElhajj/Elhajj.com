@@ -1,0 +1,112 @@
+.About {
+    padding: 10% calc(5% + 30px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.About__Part__One__Information {
+    background-color: var(--backgrond-color);
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 80%;
+  
+}
+.About__Part__Tow {
+    width: 300px;
+}
+
+.About__Part__One__H2 {
+background-color: var(--backgrond-color);
+color: var(--white-color);
+font-weight: normal;
+padding: 10px 20px;
+    border-radius: 30px 0;
+    border: 2px solid var(--primary-color);
+   width: fit-content;
+   margin-bottom: 80px;
+   font-size: 2rem;
+}
+.About__Part__Tow__Picture {
+    width: 100%;
+    height: 100%;
+}
+
+.About__Part__One__Information__p__Open__Tag ,
+.About__Part__One__Information__p__Close__Tag {
+
+
+    color: var(--secondary-color);
+    font-size: 10px;
+}
+
+.About__Hello {
+    color: var(--primary-color);
+    font-size: 2rem;
+    display: block;
+}
+
+.About__Information__P {
+color: var(--white-color);
+letter-spacing: 1px;
+font-size: 15px;
+line-height: 26px;
+}
+
+.About__Information__P span {
+    color: var(--primary-color);
+
+}
+
+
+@media screen and (min-width : 0px) and (max-width : 989px) {
+   
+   
+}
+
+
+@media screen and (min-width : 0) and (max-width : 768px) {
+
+    .About {
+        flex-direction: column;
+    }
+    .About__Part__One__Information {
+        width: 100%;
+    }
+    .About__Part__One__Information {
+        margin-bottom: 50px;
+    }
+    .About__Part__Tow__Picture {
+        width: 40%;
+    }
+  
+}
+
+@media screen and (min-width : 0) and (max-width :639px) {
+ 
+    .About {
+        padding: 25px 10px;
+    }
+    .About__Part__One__H2{ margin-bottom: 20px;}
+    .About__Part__Tow {
+        display: none;
+    }
+  
+}
+@media screen and (min-width : 0) and (max-width :400px) {
+ 
+    .Header__Search {
+        margin-left: 5px;
+    }
+    .Header__Links__Link {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .Header__Logo__name {
+        
+        font-size: 15px;
+    }
+  
+}
+
