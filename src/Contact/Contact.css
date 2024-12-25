@@ -49,6 +49,8 @@ border: 0;
 border-bottom: 1px solid var(--primary-color);
 outline: none;
 padding: 5px 0px;
+background-color: transparent;
+color: #fff;
 }
 
 .Contact__Form__INformation__Input input:focus::placeholder  , .Contact__Textarea:focus::placeholder{
@@ -62,6 +64,8 @@ background-color: transparent;
 border: 0;
 border-bottom: 1px solid var(--primary-color);
 outline: none;
+background-color: transparent;
+color: #fff;
 
 }
 
