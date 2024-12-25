@@ -24,3 +24,10 @@ outline: none;
     padding: 0 10px;
     background-color: #fff;
 }
+
+
+@media screen and (min-width : 600px) and (max-width : 1536px) {
+    .SearchPhone {
+display: none !important;
+    }
+}
