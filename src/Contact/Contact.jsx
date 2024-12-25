@@ -3,7 +3,7 @@ import { BiSend } from 'react-icons/bi'
 
 
 function Contact () {
-    return <div className='Contact'>
+    return <div className='Contact' id='Contact'>
 <h2 className='Contact__h2'>Contact</h2>
 <p className='Contact__p'>I am currently available for freelance work</p>
 <h3 className='Contact__h3'>Send Me A Message</h3>

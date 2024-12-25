@@ -50,9 +50,9 @@ function App() {
 
       <Home />
       <About />
-      {/* <AccordianSkills /> */}
+      <AccordianSkills />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

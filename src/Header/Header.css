@@ -43,8 +43,10 @@ width: 30px;
     margin-left: 5px;
 }
 .Header__Logo__Tag {
-    color: var(--primary-color);
+    color: var(--white-color);
     font-family: serif;
+    margin-left: 10px;
+    font-size: 20px;
 }
 .Header__Search {
     display: flex;
@@ -101,6 +103,10 @@ width: 30px;
     font-size: 20px;
 }
 
+.Header__Logo__Photo {
+    width: 40px;
+    border-radius: 50%;
+}
 
 @media screen and (min-width : 990px) and (max-width :2780px) {
     
@@ -170,7 +176,9 @@ width: 30px;
         width: 100%;
     }
     
-  
+    .Header {
+        padding: 5px 3%;
+       }
 }
 
 @media screen and (min-width : 0) and (max-width :430px) {

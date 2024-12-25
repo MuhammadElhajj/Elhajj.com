@@ -1,5 +1,6 @@
 import "./Home.css";
-import MyPicture from "../images/MyPicture.jpg";
+// import MyPicture from "../images/MyPicture.jpg";
+import MyPicture from "../images/Muhammad.jpg";
 import { BiEnvelope } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { BsBag } from "react-icons/bs";
@@ -44,10 +45,10 @@ function Home() {
             </p>
           </div>
           <div className="Little__skills">
-            <span>Html</span>
-            <span>Css</span>
-            <span>Js</span>
+            
+            <span>JavaScript</span>
             <span>React</span>
+            <span>Node</span>
           </div>
           <button className="Download__CV__Button">
             <span>
@@ -84,7 +85,7 @@ function Home() {
                 &lt;/p&gt;
               </span>
             </p>
-            <a href="" className="Developer__Information__Tow__Contact">
+            <a href="#Contact" className="Developer__Information__Tow__Contact">
               <span>Let's Talk </span>
               <BiEnvelope className="Developer__Information__Tow__Contact__Icon " />
             </a>
