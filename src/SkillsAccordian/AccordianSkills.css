@@ -1,0 +1,90 @@
+.AccordianSkills {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    
+
+}
+
+/* .accordian {
+    width: 100%;
+   
+} */
+
+.AccordianSkills__h2 {
+    margin-bottom: 40px;
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: normal;
+}
+.AccordianSkills__h2__span {
+   color: var(--primary-color);
+   font-size: 50px;
+}
+
+.Accordian__Title {
+    width: 600px;
+    background-color: var(--primary-color);
+color: var(--white-color);
+margin-bottom: 5px;
+padding: 10px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: black;
+
+
+
+}
+.Accordian__Title__h3 {
+    font-size : 20px ;
+    font-weight: normal;
+}
+.Accordian__Title__Icon {
+font-size: 20px;
+}
+
+.Accordian__Content {
+    background-color: #12f7d652;
+    color: var(--white-color);
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 600px;
+    letter-spacing: 0.5px;
+    
+}
+
+@media screen and (min-width : 0) and (max-width :640px) {
+    .accordian {
+    width: 100%;
+    padding: 0 10px;
+   
+}
+.Accordian__Title  {
+    width: 100%;
+    padding: 10px;
+}
+.Accordian__Content {  
+    width: 100%;
+padding: 10px;
+}
+.Accordian__Title__h3 {
+    font-size : 18px ;
+    font-weight: normal;
+}
+.Accordian__Title__Icon {
+font-size: 18px;
+}
+
+    
+}
+
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    
+    
+}

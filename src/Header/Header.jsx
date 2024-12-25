@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "./Header.css";
 import { BsSearch } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
@@ -6,6 +6,7 @@ import { BsInstagram } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import HeaderLinks from "./HeaderLinks";
 import { FaBars } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 function Header({openSide , openearch}) {
 
@@ -41,15 +42,15 @@ function Header({openSide , openearch}) {
           <BsSearch className="Header__Search__Icon"  onClick={openearch}/>
         </div>
         <div className="Header__Social__Media">
-          <a href="#G" className="Header__Social__Media__Link">
+          <a target="_blank" href="https://www.instagram.com/elhajj_coding" className="Header__Social__Media__Link">
             <BsInstagram className="Header__Social__Media__Link__Icon" />
             <span className="Header__Social__Media__Link__Name">Instagram</span>
           </a>
-          <a href="#G" className="Header__Social__Media__Link">
-            <BsDiscord className="Header__Social__Media__Link__Icon" />
-            <span className="Header__Social__Media__Link__Name">Discord</span>
+          <a target="_blank" href="https://www.linkedin.com/in/muhammad-elhajj-489580335" className="Header__Social__Media__Link">
+            <BsLinkedin className="Header__Social__Media__Link__Icon" />
+            <span className="Header__Social__Media__Link__Name">LinkedIn</span>
           </a>
-          <a href="#G" className="Header__Social__Media__Link">
+          <a target="_blank" href="https://github.com/MuhammadElhajj" className="Header__Social__Media__Link">
             <BsGithub className="Header__Social__Media__Link__Icon" />
             <span className="Header__Social__Media__Link__Name">Github</span>
           </a>

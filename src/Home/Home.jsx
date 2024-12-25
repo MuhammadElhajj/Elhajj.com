@@ -51,8 +51,9 @@ function Home() {
           </div>
           <button className="Download__CV__Button">
             <span>
-              Download CV <BiDownload className="Download__CV__Button__Icon" />
+            Download CV 
             </span>
+              <BiDownload className="Download__CV__Button__Icon" />
           </button>
         </div>
 

@@ -7,6 +7,8 @@ import Contact from "./Contact/Contact";
 import ControlPanel from "./ControlPanel/ControlPanel";
 import SideBar from "./Sidebar/Sidebar";
 import SearchPhone from "./SearchPhone/SearchPhone";
+import AccordianSkills from "./SkillsAccordian/AccordianSkills";
+import Footer from "./Footer/Footer";
 
 
 function App() {
@@ -48,7 +50,9 @@ function App() {
 
       <Home />
       <About />
+      <AccordianSkills />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,12 +1,12 @@
 const HeaderLinks = [
-{
-    name : "Home" ,
-    path : "#Home"
-},
-{
-    name : "Blog" ,
-     path : "#Home"
-}
+// {
+//     name : "Home" ,
+//     path : "#Home"
+// },
+// {
+//     name : "Blog" ,
+//      path : "#Home"
+// }
 ]
 
 

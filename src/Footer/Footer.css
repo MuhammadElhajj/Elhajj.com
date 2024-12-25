@@ -1,0 +1,15 @@
+.Footer {
+color: var(--white-color);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+background-color: var(--container-color);
+margin: 0;
+}
+
+.Footer span {
+    color: var(--primary-color);
+    padding: 0 5px;
+
+}

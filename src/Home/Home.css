@@ -86,13 +86,26 @@
 }
 
 .Download__CV__Button {
-  border: none;
+  border: 1px solid var(--primary-color);
   outline: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
-  padding: 5px 10px;
+  padding: 10px 40px;
   border-radius: 20px;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.Download__CV__Button:hover {
+  color: var(--white-color);
+  background-color: transparent;
+}
+
+.Download__CV__Button__Icon {
+  margin-left: 10px;
 }
 
 .Developer__Information__Tow__h1__Open__Tag,
