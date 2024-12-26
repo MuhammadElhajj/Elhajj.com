@@ -6,7 +6,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 function Footer () {
     return <div className="Footer">
-     <div className="Footer__name">Created By <span>Muhammad ELhajj</span> in 2024</div>
+     <div className="Footer__name">Created By <span>Muhammad ELhajj</span> in 2024 / CopyRight</div>
     <div  className="Footer__Social__Media__Links">
          <a target="_blank" href="https://www.instagram.com/elhajj_coding" className="Footer__Social__Media__Link">
                     <BsInstagram className="Footer__Social__Media__Link__Icon" />
