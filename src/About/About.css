@@ -49,7 +49,7 @@ padding: 10px 20px;
 
 .About__Information__P {
 color: var(--white-color);
-letter-spacing: 1px;
+letter-spacing: 0.5px;
 font-size: 15px;
 line-height: 26px;
 }

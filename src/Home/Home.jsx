@@ -24,7 +24,7 @@ function Home() {
             <p>
               <BiEnvelope className="Little__skills__Info__Icon" />{" "}
               <span className="Little__skills__Info__Content">
-                3muhammad.hajj.gmail.com
+                ElHajj_Example.gmail.com
               </span>
             </p>
             <p>
@@ -50,7 +50,7 @@ function Home() {
             <span>React</span>
             <span>Node</span>
           </div>
-          <button className="Download__CV__Button">
+          <button className="Download__CV__Button" >
             <span>
             Download CV 
             </span>

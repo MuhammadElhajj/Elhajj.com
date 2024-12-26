@@ -35,10 +35,12 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 color: black;
+border-radius: 10px;
 
 
 
 }
+
 .Accordian__Title__h3 {
     font-size : 20px ;
     font-weight: normal;
@@ -55,6 +57,7 @@ font-size: 20px;
     font-size: 14px;
     width: 600px;
     letter-spacing: 0.5px;
+    border-radius: 10px;
     
 }
 

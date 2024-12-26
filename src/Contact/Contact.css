@@ -1,3 +1,9 @@
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+    
+    background-color: var(--primary-color);
+ 
+}
 .Contact {
    
 

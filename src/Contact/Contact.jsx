@@ -1,6 +1,6 @@
+import Swal from "sweetalert2";
 import "./Contact.css";
 import { BiSend } from "react-icons/bi";
-import Swal from "sweetalert2";
 
 function Contact() {
 

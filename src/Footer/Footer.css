@@ -6,10 +6,33 @@ align-items: center;
 padding: 20px;
 background-color: var(--container-color);
 margin: 0;
+flex-direction: column;
 }
 
+/* .Footer__name {
+    width: 100%;
+    border-bottom: 1px solid var(--white-color);
+
+} */
 .Footer span {
     color: var(--primary-color);
     padding: 0 5px;
+
+}
+
+.Footer__Social__Media__Links {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.Footer__Social__Media__Link {
+margin: 0 10px;
+text-decoration: none;
+color: var(--primary-color);
+cursor: pointer;
+}
+
+.Footer__Social__Media__Link__Icon {
 
 }
