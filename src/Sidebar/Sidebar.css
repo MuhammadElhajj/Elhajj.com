@@ -4,6 +4,9 @@
     width: 100vw;
     position: fixed;
     transition: 0.5s;
+    top: 50px;
+    z-index: 1111;
+
 }
 
 .Sidebar__Social__Media {

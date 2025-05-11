@@ -9,6 +9,8 @@ import SideBar from "./Sidebar/Sidebar";
 import SearchPhone from "./SearchPhone/SearchPhone";
 import AccordianSkills from "./SkillsAccordian/AccordianSkills";
 import Footer from "./Footer/Footer";
+import GamePage from './GamePage/GamePage';
+import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 
 function App() {
@@ -47,8 +49,13 @@ function App() {
       rightValue = {right}
       closeSide = {closeSidebar}
       />
+      <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/GamePage" element={<GamePage />} />
+            </Routes>
+          </BrowserRouter>
 
-      <Home />
       <About />
       <AccordianSkills />
       <Contact />

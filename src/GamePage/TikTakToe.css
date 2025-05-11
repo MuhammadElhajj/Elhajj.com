@@ -1,0 +1,190 @@
+.TikTakToe::after {
+  clear: both;
+  content: "";
+  display: table;
+
+}
+.TikTakToe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: 35px; */
+
+}
+
+.Square {
+    float: left;
+    border: 3px solid var(--primary-color);
+    /* background-color: var(--primary-color); */
+    height: 100px ;
+    width: 100px;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+    margin-right: -1px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.GamePage {
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; */
+        /* height: 100vh; */
+        background-color: var(--backgrond-color);
+        /* padding: 25px 0; */
+        padding-bottom: 25px;
+        min-height: 100vh;
+
+}
+
+.Restart__Tik__Tak__Toe {
+  border: 1px solid var(--primary-color);
+  outline: none;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  font-weight: 500;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size : 20px ;
+  cursor: pointer;
+}
+.Restart__Tik__Tak__Toe:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.Tik__Tak__Toe__Status {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.TikTakToe__h1 {
+  color: #fff;
+  font-size: 60px;
+
+
+}
+
+.Symbol__button , .Change__Symbol {
+  border: 1px solid var(--primary-color);
+  outline: none;
+  display: flex
+;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: var(--white-color);
+  font-weight: 500;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size : 20px ;
+  cursor: pointer;
+}
+.Symbol__button:hover ,
+.Change__Symbol:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.symbol-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+.symbol-selection h2 {
+  color: #fff;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.controls {
+  display: flex
+;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.game-setup {
+  text-align: center;
+  padding: 20px;
+}
+
+.symbol-selection, .difficulty-selection {
+  margin: 20px 0;
+}
+
+.Symbol__button, .difficulty__button, .start-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.Symbol__button:hover, .difficulty__button:hover {
+background-color: transparent;
+color: var(--white-color);
+}
+.Symbol__button.selected, .difficulty__button.selected {
+  border-color: #4CAF50;
+  background-color: #4CAF50;
+  color: var(--backgrond-color);
+}
+
+.start-button {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.start-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.difficulty-selection-h2 {
+  font-size: 18px;
+    color: var(--primary-color);
+}
+
+@media screen and (min-width : 0) and (max-width :400px) {
+  .TikTakToe__h1 {
+   
+    font-size: 35px;
+}
+.Square {
+
+  height: 75px;
+  width: 75px;
+
+  font-size: 35px;
+ 
+}
+}

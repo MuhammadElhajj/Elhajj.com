@@ -24,8 +24,10 @@ function AccordianSkills() {
     setMultiple(cpyMulti);
   }
   return (
-    <div className="AccordianSkills">
-      <h2 div className="AccordianSkills__h2">
+    <div
+     className="AccordianSkills">
+      <h2 div 
+      className="AccordianSkills__h2">
         Skills
         <span div className="AccordianSkills__h2__span">
           Of

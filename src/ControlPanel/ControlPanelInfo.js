@@ -4,11 +4,12 @@ import { LuComputer } from "react-icons/lu";
 import { BiCode } from "react-icons/bi";
 import { BiEdit } from "react-icons/bi";
 import { BiEnvelope } from "react-icons/bi";
+import { BiGame } from "react-icons/bi";
 
 const ControlPanelInfo = [
 {
 icon : <BiWindows/> ,
-href : "#"
+href : "/"
 },
 {
 icon : <BiUser/> ,
@@ -29,6 +30,10 @@ href : "#"
 {
 icon : <BiEnvelope/> ,
 href : "#"
+},
+{
+icon : <BiGame/> ,
+href : "/GamePage"
 },
 ]
 

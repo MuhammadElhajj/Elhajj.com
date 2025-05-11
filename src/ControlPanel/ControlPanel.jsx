@@ -1,5 +1,5 @@
 import './ControlPanel.css'
-import ControlPanelInfo from './ControlPanelInfo'
+import ControlPanelInfo from './ControlPanelInfo';
 
 
 function ControlPanel () {
